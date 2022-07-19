@@ -12,9 +12,13 @@ import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 import Layout from '../src/components/layouts/article'
 import Section from '../src/components/section'
 import { WorkGridItem } from '../src/components/grid-item'
+import Head from 'next/head'
 
 const Works = () => (
-  <Layout title="Works">
+  <Layout title="Projetos">
+
+<Head>Nathan Delanhese | Projetos</Head>
+
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Works
