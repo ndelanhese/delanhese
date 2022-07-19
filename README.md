@@ -1,4 +1,4 @@
-# Takuya's Homepage
+<!-- # Takuya's Homepage
 
 [https://www.craftz.dog/](https://www.craftz.dog/)
 
@@ -42,4 +42,4 @@ You can create your own homepage for free without notifying me by forking this p
 
 Looking for a Markdown note-taking app? Check out my app called Inkdrop:
 
-[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/)
+[![Inkdrop](https://github.com/craftzdog/dotfiles-public/raw/master/images/inkdrop.png)](https://www.inkdrop.app/) -->
