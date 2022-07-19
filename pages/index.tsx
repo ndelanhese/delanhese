@@ -87,7 +87,7 @@ export default function Home() {
         </Box>
       </Box>
 
-      <Section delay={0.1}>
+      <Section >
         <HStack gap={3}>
           <Heading as="h3" variant="section-title">
             Sobre mim
@@ -120,7 +120,7 @@ export default function Home() {
         </Box>
       </Section>
 
-      <Section delay={0.2}>
+      <Section >
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
@@ -144,7 +144,7 @@ export default function Home() {
         </BioSection>
       </Section>
 
-      <Section delay={0.3}>
+      <Section >
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -161,7 +161,7 @@ export default function Home() {
         </Paragraph>
       </Section>
 
-      <Section delay={0.3}>
+      <Section >
         <Heading as="h3" variant="section-title">
           On the web
         </Heading>
