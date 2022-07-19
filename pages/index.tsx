@@ -142,8 +142,8 @@ export default function Home() {
           Ainda no ano de 2021, iniciou sua segunda faculdade, desta vez, Gestão de Cooperativas na Uiniversidade Norte do Paraná (UNOPAR).
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2022 até agora</BioYear>
+          Trabalha como dev front-end (React JS & Next JS)
         </BioSection>
       </Section>
 
