@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
-
 const LogoBox = styled.span`
   font-weight: bold;
   font-size: 18px;
@@ -18,23 +16,19 @@ const LogoBox = styled.span`
 
   &:hover img {
     transform: rotate(20deg);
-  }
-`
-
-const Logo = () => {
+  }`
   
-  return (
+const Logo = () => {
+    return (
     <Link href="/" scroll={false}>
       <a>
         <LogoBox >
-         
-          <Text
+                   <Text
             color={useColorModeValue('gray.800', 'whiteAlpha.900')}
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
-            
-          >
+                      >
               Nathan Delanhese
           </Text>
         </LogoBox>
