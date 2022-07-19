@@ -34,8 +34,9 @@ const Logo = () => {
             fontFamily='M PLUS Rounded 1c", sans-serif'
             fontWeight="bold"
             ml={3}
+            
           >
-            Takuya Matsuyama
+              Nathan Delanhese
           </Text>
         </LogoBox>
       </a>
