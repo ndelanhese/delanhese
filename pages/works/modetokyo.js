@@ -6,10 +6,10 @@ import {
   ListItem,
   SimpleGrid
 } from '@chakra-ui/react'
-import Layout from '../../components/layouts/article'
+import Layout from '../../src/components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
-import P from '../../components/paragraph'
+import { Title, WorkImage, Meta } from '../../src/components/work'
+import P from '../../src/components/paragraph'
 
 const Work = () => (
   <Layout title="mode.tokyo">
@@ -71,4 +71,4 @@ const Work = () => (
 )
 
 export default Work
-export { getServerSideProps } from '../../components/chakra'
+export { getServerSideProps } from '../../src/components/chakra'
