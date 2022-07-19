@@ -120,23 +120,26 @@ export default function Home() {
         </Box>
       </Section>
 
-      <Section >
+      <Section  >
         <Heading as="h3" variant="section-title">
           Bio
         </Heading>
         <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
+          <BioYear>2002</BioYear>
+          Nasceu em Alto Piquiri, Paraná - Brasil.
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          <BioYear>2020</BioYear>
+          Terminou o ensino médio integrado com Tecnologia da Informação, no Instituto Federal do Paraná (IFPR).
         </BioSection>
         <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
+          <BioYear>2021</BioYear>
+          Iniciou sua primeira faculdade, Análise e Desenvolvimento de Sistemas No Instituto Federal do Paraná (IFPR), curso 
+          nível 5 no MEC.
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Ainda no ano de 2021, iniciou sua segunda faculdade, desta vez, Gestão de Cooperativas na Uiniversidade Norte do Paraná (UNOPAR).
         </BioSection>
         <BioSection>
           <BioYear>2012 to present</BioYear>
