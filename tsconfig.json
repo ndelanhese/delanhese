@@ -23,7 +23,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/voxel-dog-loader.js", "components/fonts.js"  ],
+, "components/voxel-dog-loader.js", "components/fonts.js", "src/components/i18nextConf.js"  ],
   "exclude": [
     "node_modules"
   ]

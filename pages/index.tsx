@@ -13,18 +13,14 @@ import {
   HStack
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-
-
-import { GridItem } from '../src/components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+import {IoLogoGithub } from 'react-icons/io5'
 import Image from 'next/image'
 import Head from 'next/head'
 import Section from '../src/components/section'
 import Paragraph from '../src/components/paragraph'
 import { BioSection, BioYear } from '../src/components/bio'
-
+import {AiFillInstagram, AiFillLinkedin} from 'react-icons/ai'
+import {CgWebsite} from 'react-icons/cg'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -147,7 +143,7 @@ export default function Home() {
         </BioSection>
       </Section>
 
-      <Section >
+      {/* <Section >
         <Heading as="h3" variant="section-title">
           I ♥
         </Heading>
@@ -162,7 +158,7 @@ export default function Home() {
           </Link>
           , Leica, Machine Learning
         </Paragraph>
-      </Section>
+      </Section> */}
 
       <Section >
         <Heading as="h3" variant="section-title">
@@ -170,75 +166,53 @@ export default function Home() {
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/ndelanhese" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @ndelanhese
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://instagram.com/nathan.delanhese" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<AiFillInstagram/>}
               >
-                @inkdrop_app (English)
+                
+                @nathan.delanhese
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
+            <Link href="https://linkedin.com/in/nathandelanhese" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
+                leftIcon={<AiFillLinkedin/>}
               >
-                @craftzdog (日本語)
+                @nathan.delanhese
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://delanhese.tk" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<IoLogoInstagram />}
+                leftIcon={<CgWebsite/>}
               >
-                @craftzdog
+                delanhese.tk
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
-
-        <Box alignContent="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box>
+        
       </Section>
     </Container>
   )
