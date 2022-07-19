@@ -1,3 +1,9 @@
+import { Button, Text } from "@chakra-ui/react";
+
 export function TranslateButton(){
-    return(<h1>OLá</h1>)
+    return(
+    <Button >
+        <Text mt={1}>PT-BR</Text>
+    </Button>
+        )
 }
