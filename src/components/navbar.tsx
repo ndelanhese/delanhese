@@ -60,7 +60,7 @@ const Navbar = props => {
         justifyContent="space-between"
       >
         <Flex align="center" mr={5}>
-          <Heading as="h1" size="lg" letterSpacing={'tighter'}>
+          <Heading as="h1" size="lg" mb={["10", "4"]} letterSpacing={'tighter'}>
             <Logo />
           </Heading>
         </Flex>
@@ -83,7 +83,7 @@ const Navbar = props => {
             href="https://github.com/ndelanhese/delanhese"
             path={path}
             display="inline-flex"
-            alignItems="center"
+            text="center"
             style={{ gap: 4 }}
             pl={2}
           >
@@ -96,12 +96,13 @@ const Navbar = props => {
          <HStack gap={2}>
          <TranslateButton/>
           <ThemeToggleButton />
-         </HStack>
+         
 
-          <Box ml={2} display={{ base: 'inline-block' , md: 'none' }}>
+          <Box display={{ base: 'inline-block' , md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
+                
                 icon={<HamburgerIcon />}
                 variant="outline"
                 aria-label="Options"
@@ -123,6 +124,7 @@ const Navbar = props => {
               </MenuList>
             </Menu>
           </Box>
+          </HStack>
         </Box>
       </Container>
     </Box>

@@ -41,7 +41,7 @@ export default function Home() {
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m a brazilian front-end developer!
+        Olá, eu sou um desenvolvedor front-end. 
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -51,7 +51,7 @@ export default function Home() {
               Nathan Delanhese
             </Link>
           </Heading>
-          <p>Front-end developer (React JS / TypeScript)</p>
+          <p>Desenvolvedor front-end (React JS / TypeScript)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -87,9 +87,7 @@ export default function Home() {
           <Heading as="h3" variant="section-title">
             Sobre mim
           </Heading>
-          <Heading as="h3" variant="section-title" pb="4px">
-            About me
-          </Heading>
+      
         </HStack>
         <Paragraph>
           {/* Delanhese, is a yung front-end developer, actualy her is working, 
@@ -109,7 +107,7 @@ export default function Home() {
         <Box alignContent="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              Meu Portifólio
             </Button>
           </NextLink>
         </Box>
@@ -142,26 +140,11 @@ export default function Home() {
         </BioSection>
       </Section>
 
-      {/* <Section >
-        <Heading as="h3" variant="section-title">
-          I ♥
-        </Heading>
-        <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
-          </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
-        </Paragraph>
-      </Section> */}
+     
 
       <Section >
         <Heading as="h3" variant="section-title">
-          On the web
+          Me encontre nas na web
         </Heading>
         <List>
           <ListItem>
