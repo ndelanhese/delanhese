@@ -13,7 +13,8 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
-  HStack
+  HStack,
+  Spacer
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
@@ -92,8 +93,10 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} align="right" >
-         <HStack gap={2} >
+<Spacer/>
+
+        <Box flex={1}  >
+         <HStack gap={[0,2]} >
          <TranslateButton/>
           <ThemeToggleButton />
          
