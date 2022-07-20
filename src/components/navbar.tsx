@@ -92,8 +92,8 @@ const Navbar = props => {
           </LinkItem>
         </Stack>
 
-        <Box flex={1} textAlign="right">
-         <HStack gap={2}>
+        <Box flex={1} align="right" >
+         <HStack gap={2} >
          <TranslateButton/>
           <ThemeToggleButton />
          

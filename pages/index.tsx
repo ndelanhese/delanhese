@@ -20,6 +20,8 @@ import Paragraph from '../src/components/paragraph'
 import { BioSection, BioYear } from '../src/components/bio'
 import {AiFillInstagram, AiFillLinkedin} from 'react-icons/ai'
 import {CgWebsite} from 'react-icons/cg'
+import '../src/i18n'
+import { useTranslation } from 'react-i18next'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -27,11 +29,12 @@ const ProfileImage = chakra(Image, {
 
 export default function Home() {
   
+  const {t} = useTranslation()
 
   return (
     <Container>
       <Head>
-        <title>Nathan Delanhese | Home Page</title>
+        <title>Nathan Delanhese | {t('Home Page')}</title>
       </Head>
       <Box
         borderRadius="lg"

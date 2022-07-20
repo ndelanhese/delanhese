@@ -5,6 +5,8 @@ export function TranslateButton(){
         base: true,
         lg: false,
     })
+
+    
     
  
     if(!isWideVersion){
