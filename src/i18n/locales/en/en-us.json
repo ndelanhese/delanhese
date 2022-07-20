@@ -1,5 +1,23 @@
 {
-    "translation": {
-        "Home Page": "Home Page"
-    }
+  "translation": {
+    "Home Page": "Home Page",
+    "hello": "Hello, Im a brazilian front-end developer",
+    "position": "Front-end developer",
+    "about": "About me",
+    "paragraphOne": "Delanhese, is a yung front-end developer, actualy her is working, drink coffee and study. When not doing one of these functions, her he rides a bicycle or does some physical exercise.",
+    "paragraphTwo": "He began to study programming while still in technical education, using main programming language JAVA, when he entered college, studying Systems Analysis and Development migrated to the web using JavaScript as the basis for applications. And currently, working as a junior in the field, he is focused on Next JS + React JS.",
+    "myPortfolio": "My Portfolio",
+    "bio": "Bio",
+    "born": "Born in Alto Piquiri, Paraná - Brazil.",
+    "highSchool": "He finished high school integrated with Information Technology, at the Federal Institute of Paraná (IFPR).",
+    "collegeOne": "He started his first college, Systems Analysis and Development at the Federal Institute of Paraná (IFPR), level 5 course at MEC.",
+    "collegeTwo": "Still in 2021, he started his second college, this time, Management of Cooperatives at the North University of Paraná (UNOPAR).",
+    "now": "Works as front-end dev (React JS & Next JS)",
+    "toNow": "2022 - To now",
+    "onWeb": "On the web",
+    "works": "Works",
+    "source": "This Source",
+    "aboutMenu": "About",
+    "footer": "All Rights Reserved."
+  }
 }

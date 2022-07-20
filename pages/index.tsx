@@ -23,6 +23,7 @@ import {CgWebsite} from 'react-icons/cg'
 import '../src/i18n'
 import { useTranslation } from 'react-i18next'
 
+
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
@@ -44,7 +45,7 @@ export default function Home() {
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Olá, eu sou um desenvolvedor front-end. 
+        {t('hello')}
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -54,7 +55,7 @@ export default function Home() {
               Nathan Delanhese
             </Link>
           </Heading>
-          <p>Desenvolvedor front-end (React JS / TypeScript)</p>
+          <p>{t('position')} (React JS / TypeScript)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -88,29 +89,20 @@ export default function Home() {
       <Section >
         <HStack gap={3}>
           <Heading as="h3" variant="section-title">
-            Sobre mim
+            {t('about')}
           </Heading>
       
         </HStack>
         <Paragraph>
-          {/* Delanhese, is a yung front-end developer, actualy her is working, 
-      drink coffee and study. When not doing one of these functions,
-       her he rides a bicycle or does some physical exercise. */}
-          Delanhese, é um jovem desenvolvedor front-end que atualmente está
-          trabalhando, tomando café e estudando. Quando não está fazendo uma
-          dessas funções, ele anda de bicicleta ou faz algum exercício físico.
+         {t('paragraphOne')}
         </Paragraph>
         <Paragraph>
-          Começou a estudar programação ainda no ensino técnico, utilizando como
-          linguagem de programação principal o JAVA, quando entrou na faculdade,
-          cursando Análise e Desenvolvimento de Sistemas migrou para a web
-          uilizando o JavaScript como base para as aplicações. E atualmente,
-          trabalhando como junior na area, está focado em Next JS + React JS.
+          {t('paragraphTwo')}
         </Paragraph>
         <Box alignContent="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Meu Portifólio
+              {t('myPortfolio')}
             </Button>
           </NextLink>
         </Box>
@@ -118,28 +110,27 @@ export default function Home() {
 
       <Section  >
         <Heading as="h3" variant="section-title">
-          Bio
+          {t('bio')}
         </Heading>
         <BioSection>
           <BioYear>2002</BioYear>
-          Nasceu em Alto Piquiri, Paraná - Brasil.
+          {t('born')}
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Terminou o ensino médio integrado com Tecnologia da Informação, no Instituto Federal do Paraná (IFPR).
+          {t('highSchool')}
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Iniciou sua primeira faculdade, Análise e Desenvolvimento de Sistemas No Instituto Federal do Paraná (IFPR), curso 
-          nível 5 no MEC.
+          {t('collegeOne')}
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-          Ainda no ano de 2021, iniciou sua segunda faculdade, desta vez, Gestão de Cooperativas na Uiniversidade Norte do Paraná (UNOPAR).
+          {t('collegeTwo')}
         </BioSection>
         <BioSection>
-          <BioYear>2022 até agora</BioYear>
-          Trabalha como dev front-end (React JS & Next JS)
+          <BioYear>{t('toNow')}</BioYear>
+          {t('now')}
         </BioSection>
       </Section>
 
@@ -147,7 +138,7 @@ export default function Home() {
 
       <Section >
         <Heading as="h3" variant="section-title">
-          Me encontre nas na web
+        {t('onWeb')}
         </Heading>
         <List>
           <ListItem>

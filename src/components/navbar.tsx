@@ -20,6 +20,8 @@ import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import { IoLogoGithub } from 'react-icons/io5'
 import { TranslateButton } from './TranslateButton'
+import '../i18n'
+import { useTranslation } from 'react-i18next'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
@@ -41,6 +43,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
 
 const Navbar = props => {
   const { path } = props
+  const {t} = useTranslation()
 
   return (
     <Box
@@ -76,7 +79,7 @@ const Navbar = props => {
         >
 
           <LinkItem href="/works" path={path} target="" >
-            Works
+          {t('works')}
           </LinkItem>
           
           <LinkItem
@@ -89,19 +92,20 @@ const Navbar = props => {
             pl={2}
           >
             <IoLogoGithub />
-            Source
+            {t('source')}
           </LinkItem>
         </Stack>
 
 <Spacer/>
 
         <Box flex={1}  >
-         <HStack gap={[0,2]} >
+         <HStack gap={[0
+         ,2]} >
          <TranslateButton/>
           <ThemeToggleButton />
          
 
-          <Box display={{ base: 'inline-block' , md: 'none' }}>
+          <Box pr={3} display={{ base: 'inline-block' , md: 'none' }}>
             <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
@@ -112,17 +116,17 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>{t('aboutMenu')}</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                  <MenuItem as={Link}>{t('works')}</MenuItem>
                 </NextLink>
               
                 <MenuItem
                   as={Link}
                   href="https://github.com/ndelanhese/delanhese"
                 >
-                  View Source
+                  {t('source')}
                 </MenuItem>
               </MenuList>
             </Menu>

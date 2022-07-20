@@ -1,5 +1,23 @@
 {
     "translation": {
-        "Home Page": "Tela Inicial"
+        "Home Page": "Tela Inicial",
+        "hello": "Olá, eu sou um desenvolvedor front-end",
+        "position": "Desenvolvedor front-end",
+        "about": "Sobre mim",
+        "paragraphOne": "Delanhese, é um jovem desenvolvedor front-end que atualmente está trabalhando, tomando café e estudando. Quando não está fazendo uma dessas funções, ele anda de bicicleta ou faz algum exercício físico.",
+        "paragraphTwo": "Começou a estudar programação ainda no ensino técnico, utilizando como linguagem de programação principal o JAVA, quando entrou na faculdade, cursando Análise e Desenvolvimento de Sistemas migrou para a web uilizando o JavaScript como base para as aplicações. E atualmente, trabalhando como junior na area, está focado em Next JS + React JS.",
+        "myPortfolio": "Meu Portfólio",
+        "bio": "Biografia", 
+        "born": "Nasceu em Alto Piquiri, Paraná - Brasil.",
+        "highSchool": "Terminou o ensino médio integrado com Tecnologia da Informação, no Instituto Federal do Paraná (IFPR).",
+        "collegeOne": "Iniciou sua primeira faculdade, Análise e Desenvolvimento de Sistemas No Instituto Federal do Paraná (IFPR), curso nível 5 no MEC.",
+        "collegeTwo": "Ainda no ano de 2021, iniciou sua segunda faculdade, desta vez, Gestão de Cooperativas na Uiniversidade Norte do Paraná (UNOPAR).",
+        "now": "Trabalha como dev front-end (React JS & Next JS)",
+        "toNow": "2022 - Até agora",
+        "onWeb": "Me encontre nas redes sociais",
+        "works": "Trabalhos",
+        "source": "Este Código",
+        "aboutMenu": "Sobre",
+        "footer": "Todos os direitos reservados."
     }
 }
